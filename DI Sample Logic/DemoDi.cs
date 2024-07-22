@@ -16,9 +16,13 @@ namespace DI_Sample_Logic
             Random rnd = new Random();
             InitialNumber = rnd.Next();
         }
-        public int ReturnNumber()
+        public int ReturnNumber() => InitialNumber;
+
+        /*The above statement is shorthand version of
+         public int ReturnNumber()
         {
             return InitialNumber;
         }
+         */
     }
 }

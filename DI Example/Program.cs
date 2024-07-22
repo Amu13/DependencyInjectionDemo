@@ -1,19 +1,9 @@
-using DI_Sample_Logic;
-using Microsoft.Azure.Functions.Worker;
-using Microsoft.Extensions.DependencyInjection;
+using DI_Example;
 using Microsoft.Extensions.Hosting;
 
 var host = new HostBuilder()
     .ConfigureFunctionsWebApplication()
-    .ConfigureServices(services =>
-    {
-        services.AddApplicationInsightsTelemetryWorkerService();
-        services.ConfigureFunctionsApplicationInsights();
-
-        services.AddSingleton<IDemoSingleton, DemoDi>();
-        services.AddScoped<IDemoScoped, DemoDi>();
-        services.AddTransient<IDemoTransient, DemoDi>();
-    })
+    .ConfigureServices(Startup.Configure)
     .Build();
 
 host.Run();

@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DI Example", "DI Example\DI Example.csproj", "{96A946E3-1491-4D80-8EBD-47FFB78D904E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DI Example", "DI Example\DI Example.csproj", "{96A946E3-1491-4D80-8EBD-47FFB78D904E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DI Sample Logic", "DI Sample Logic\DI Sample Logic.csproj", "{2000BE11-D4C3-4CD9-9FBC-BE04A5AD8A98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DI Sample Logic", "DI Sample Logic\DI Sample Logic.csproj", "{2000BE11-D4C3-4CD9-9FBC-BE04A5AD8A98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIExample Tests", "DIExample Tests\DIExample Tests.csproj", "{EA0C4516-2B4D-4BA3-8159-1128C1931936}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{2000BE11-D4C3-4CD9-9FBC-BE04A5AD8A98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2000BE11-D4C3-4CD9-9FBC-BE04A5AD8A98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2000BE11-D4C3-4CD9-9FBC-BE04A5AD8A98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA0C4516-2B4D-4BA3-8159-1128C1931936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA0C4516-2B4D-4BA3-8159-1128C1931936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA0C4516-2B4D-4BA3-8159-1128C1931936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA0C4516-2B4D-4BA3-8159-1128C1931936}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
